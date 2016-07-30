@@ -153,7 +153,7 @@ const unsigned char C2[] = {
 const byte DATA = 11;  
 const byte CS= 10;  
 const byte CLK = 13;  
-const byte maxInUse = 1;   
+const byte maxInUse = 4;   
 MaxMatrix m(DATA, CS, CLK, maxInUse);
 byte buffer[10];
 char msg[] = "You win ! Weiwen.love  ";
